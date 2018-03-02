@@ -1,0 +1,18 @@
+{
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "deploy": "brunch build --production",
+    "build": "brunch build",
+    "watch": "brunch watch --stdin"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-brunch": "6.1.1",
+    "brunch": "2.10.9",
+    "clean-css-brunch": "2.10.0",
+    "uglify-js-brunch": "2.10.0"
+  }
+}

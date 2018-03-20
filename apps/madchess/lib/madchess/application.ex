@@ -13,7 +13,8 @@ defmodule Madchess.Application do
     import Supervisor.Spec, warn: false
 
     Supervisor.start_link([
-      
+      supervisor(Registry, [:unique, Madchess.Game.Supervisor.get_registry_name()]),
+      supervisor(Madchess.GamesSupervisor, [])
     ], strategy: :one_for_one, name: Madchess.Supervisor)
   end
 end

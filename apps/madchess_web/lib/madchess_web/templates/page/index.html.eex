@@ -1,1 +1,6 @@
-<div id="board" style="width: 400px"></div>
+<div style="width: 600px; margin-right: auto; margin-left: auto; margin-top: 80px">
+  <div id="board" style="width: 600px;"></div>
+  <p>Status: <span id="status"></span></p>
+  <p>FEN: <span id="fen"></span></p>
+  <p>PGN: <span id="pgn"></span></p>
+</div>
